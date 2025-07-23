@@ -127,7 +127,7 @@ const defaultStyles = {
     transition: "background-color 0.15s ease",
   },
   suggestionActive: {
-    backgroundColor: "#f8fafc",
+    backgroundColor: "#cbd5e1",
   },
   suggestionHover: {
     backgroundColor: "#f1f5f9",
