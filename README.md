@@ -1,7 +1,11 @@
 
-# # AutoSuggestion Kit
+#  AutoSuggestion Kit
 
-A lightweight, accessible React autosuggestion component with built-in support for:
+[![npm version](https://img.shields.io/npm/v/autosuggestion-kit.svg)](https://www.npmjs.com/package/autosuggestion-kit)
+
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
+A powerful, lightweight, and fully customizable React autosuggestion/autocomplete component that delivers dynamic search experiences with blazing-fast performance. With support for static and asynchronous data sources, advanced keyboard navigation, and built-in search history using localStorage, AutoSuggestion Kit enables intuitive and highly accessible search bars, dropdowns, and typeahead features―all with zero external dependencies.
 
 -   **Static and async suggestions**  — use local arrays or fetch suggestions dynamically
     
@@ -16,7 +20,11 @@ A lightweight, accessible React autosuggestion component with built-in support f
 -   **Customizable styling and rendering**  — easily adapt to your project’s needs
 
 
+## 🚀 Live Demo
 
+[![Live Demo](https://img.shields.io/badge/Demo-online-success?logo=vercel)](https://autosuggestion-demo.vercel.app/)
+
+Try out **AutoSuggestion Kit** in action! See interactive examples, customizations, and API usage.
 ## Basic Usage with Static Suggestions
 
 ```javascript
@@ -91,26 +99,7 @@ export default function AsyncSearch() {
 }
 
 ```
-## Icon Customization Example
-> **Note:** You can customize or remove the built-in icons by passing an icons prop
-```jsx
-<AutoSuggestion
-  {...otherProps}
-  icons={{
-    search: null, // removes the search icon completely
-    loading: <YourCustomLoader />,
-    clear: <YourCustomClearIcon />,
-  }}
-/>
-```
 
-## Installation
-Install my-project with npm
-
-```bash
-  npm install autosuggestion-kit
-  
-```
 ## Main Props
 
 | Prop / Function       | Purpose / Description                                              | Example Value                       |
@@ -128,9 +117,7 @@ Install my-project with npm
 | `onChange`            | Callback called on input value change                            | `(value) => console.log(value)`   |
 
 
-## Demo link -soon
- 
 ## Feedback
 
-If you have any feedback, please contact us at developerkeshav200@gmail.com
+If you have any feedback, please reach out to us at developerkeshav200@gmail.com
 

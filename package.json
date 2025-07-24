@@ -1,16 +1,29 @@
 {
   "name": "autosuggestion-kit",
-  "version": "1.0.0",
+  "version": "1.0.2",
+  "description": "A lightweight, accessible React autosuggestion component with static and async suggestions, keyboard navigation, search history, and customizable styling.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "npx rollup -c"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "autosuggestion",
+    "autocomplete",
+    "react",
+    "react-component",
+    "search",
+    "suggestion",
+    "async",
+    "debounce",
+    "localStorage",
+    "cache",
+    "keyboard-navigation"
+  ],
+  "author": "Keshav",
   "license": "ISC",
-  "description": "",
+
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-typescript": "^12.1.4",
