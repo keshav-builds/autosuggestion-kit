@@ -22,7 +22,7 @@ export function highlightMatch(text: string, query: string): React.ReactNode {
 
   return parts.map((part, index) =>
     regex.test(part) ? (
-      <span key={index} style={{ fontWeight: "bold", padding: 0 }}>
+      <span key={index} style={{ fontWeight: 600, padding: 0 }}>
         {part}
       </span>
     ) : (

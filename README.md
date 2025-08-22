@@ -2,10 +2,9 @@
 #  AutoSuggestion Kit
 
 [![npm version](https://img.shields.io/npm/v/autosuggestion-kit.svg)](https://www.npmjs.com/package/autosuggestion-kit)
-
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-A powerful, lightweight, and fully customizable React autosuggestion/autocomplete component that delivers dynamic search experiences with blazing-fast performance. With support for static and asynchronous data sources, advanced keyboard navigation, and built-in search history using localStorage, AutoSuggestion Kit enables intuitive and highly accessible search bars, dropdowns, and typeahead features―all with zero external dependencies.
+A powerful, lightweight, and fully customizable React autosuggestion/autocomplete component that delivers dynamic search experiences with blazing-fast performance. With support for static and asynchronous data sources, advanced keyboard navigation, and built-in search history using localStorage, AutoSuggestion Kit enables intuitive and highly accessible search bar and dropdownswith zero external dependencies.
 
 -   **Static and async suggestions**  — use local arrays or fetch suggestions dynamically
     
